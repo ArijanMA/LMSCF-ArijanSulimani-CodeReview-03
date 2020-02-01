@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+    font-size: 35px;
+}
+
+
+
+
+/*nav starts here*/
+
+.head{
+    background-color: #FFF3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#banner{
+    padding-right: 50px;
+}
+
+nav{
+    background-color: #8E1615;
+    padding: 10px;
+}
+header ul{
+    display: flex;
+    padding-left: 30px;
+    
+}
+header li{
+    list-style: none;
+    font-size: 28px;
+    padding-right: 30px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:black;
+}
+
+/*nav ends here*/
+
+
+/*body starts here*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/traffic-332857_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 100% 800px;
+    
+}
+
+
+h1{
+    color: white;
+    padding: 45px 30px;
+}
+
+.maininfo{
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0 60px;
+    padding: 60px;
+    box-shadow:1px 1px 0px 1px black;
+    border-radius: 5px;
+    background-color: rgb(255,255,255, 0.6);
+
+}
+.personal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.personal1{
+    display: block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.kontakt-cols{
+    display: block;
+    padding-bottom: 30px;
+    text-align: left;
+    
+}
+input {
+    font-size: 20px;
+    color: grey;
+    border-radius: 4px;
+}
+
+select {
+     font-size: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 9px;
+    padding-right: 122px;
+    padding-bottom: 6px;
+    
+}
+
+button{
+    background-color: #329235;
+    padding: 15px 60px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+label{
+    font-size: 18px;
+}
+.kontakt-cols div{
+    font-size: 20px;
+}
+input{
+    border: 1px solid black;
+    padding:15px 20px;
+    font-size: 18px;
+}
+
+
+.maininfo p {
+    padding: 30px;
+    color: darkgreen;
+    font-size: 24px;
+}
+.textcenter{
+    padding: 40px;
+    text-align: center;
+    margin: 0;
+    background-color: #CECECE;
+    }
+.textcenter h3{
+    color: #5D5D5D;
+}
+.textcenter p{
+    
+    color: #3D3D3D;
+} 
+
+/* 2 little boxes before footer*/
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 90px 0;
+}
+.info{
+    padding: 30px;
+    border: 1px solid lightgray;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow:1px 2px 3px 4px grey;
+    text-align: center;
+}
+.info ul {
+    margin: 20px;
+}
+.info p {
+    color: #3D3D3D;
+
+}
+.info h4{
+    color: #53688D;
+}
+.info ul li:before {
+    content: '✓';
+    color: #9BD7D9;
+  }
+  .info li{
+      list-style: none;
+      color: #3D3D3D;
+  }
+
+/* end of the 2little boxes before footer*/
+
+
+
+/* footer starts here*/
+
+footer{
+    background-color: #191919;
+}
+.footer nav {
+    background-color: #171717;
+}
+#logofooter{
+    float: right;
+    margin-right: 30px;
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+footer ul{
+    display: flex;
+    padding-left: 30px;
+}
+footer li{
+    list-style: none;
+    font-size: 28px;
+    padding-right: 30px;  
+}
+
+/*footer ends here*/
+
+
+
+
+@media only screen and (max-width: 600px){
+    #banner{
+        display: none;
+    }
+    main{
+        background-image: url("img/traffic-332857_1920.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 1200px;
+        
+    }
+    .info{
+        margin-bottom: 60px;
+    }
+
+
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        display:block ;
+        text-align:center;
+       
+    }
+    
+
+    #logofooter{
+        float: unset;
+        margin: 0;
+        padding-top:30px;
+    }
+    h1{text-align: center;
+        }
+   
+}

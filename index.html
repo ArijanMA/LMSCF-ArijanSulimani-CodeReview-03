@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Car Insurance</title>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+        <div class="head">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" id="logo"></a>
+            </div>
+            <div class="logo" id="logo_big">
+                <a href=" https://www.codefactory.wien"><img src="img/banner.png" alt="logo" id="banner"></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Team</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+
+	<main>
+  <h1>Car insurance</h1>
+  <div class="maininfo">
+    <h2>Great coverage begins<br> with a costum qoute</h2>
+    <div class="personal">
+      <div class="personal1">
+        <div class="kontakt-cols">
+          <div>
+            <label for="name">Your name:</label>
+          </div>
+          <div>
+            <input type="text" id="name" placeholder="Your name" />
+          </div>
+        </div>
+        <div class="kontakt-cols">
+          <div>
+            <label for="countries">Country:</label>
+          </div>
+          <div>
+            <select id="countries">
+              <option value="austria" id="austria">Austria</option>
+              <option value="hungary" id="hungary">Hungary</option>
+              <option value="greece" id="greece">Greece</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="personal1">
+        <div class="kontakt-cols">
+          <div>
+            <label for="number">Your Age:</label>
+          </div>
+          <div>
+            <input type="number" id="number" placeholder="Your age" />
+          </div>
+        </div>
+        <div class="kontakt-cols">
+          <div>
+            <label for="power">Horesepower of your car:</label>
+          </div>
+          <div>
+            <input type="number" id="power" placeholder="Horsepower" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="submit" onclick="Insurance()">Calculate</button>
+    <p id="result"></p>
+  </div>
+  <div class="textcenter">
+    <h3>Un-complicating car coverage</h3>
+    <p>
+      Understanding your coverage options shouldn't be so hard.<br> We will guide
+      you though available coverage types,<br>starting with who and what is
+      convered.
+    </p>
+  </div>
+  <div class="information">
+    <div class="info">
+      <h4>What comes standart</h4>
+      <p>The coverage you need</p>
+      <ul>
+        <li>Body Injury Liebility</li>
+        <li>Property Damage</li>
+        <li>Medical Payments</li>
+      </ul>
+      <strong>Benefits</strong>
+      <p>12-month rate guarantee</p>
+    </div>
+    <div class="info">
+      <h4>Add-on Protection & coverage</h4>
+      <p>For more peace of mind</p>
+      <ul>
+        <li>Better Car Replacement</li>
+        <li>Townug & Labor</li>
+        <li>Rental Car Coverage</li>
+      </ul>
+      <strong>Earned Benefits</strong>
+      <p>New Car Replacement</p>
+    </div>
+  </div>
+</main>
+
+
+
+
+	 <footer>
+        <div class="footer">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Team</a></li>
+                </ul>
+            </nav>  
+        </div>
+        <div>
+            <a href="index.html"><img src="img/logo-inv.png" alt="logo" id="logofooter"></a>
+        </div>
+        <div>
+            <p>Arijan Sulimani - CodeFactory 2020</p>
+        </div>
+    </footer>
+	
+</body>
+</html>
